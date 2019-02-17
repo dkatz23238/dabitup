@@ -1,5 +1,5 @@
 # dabitup 🛠
-Quickly deploy dockerized databases and insert tables stored in text files. Great for developing data science pipelines.
+Quickly deploy dockerized databases and insert tables stored in text files. Great for developing data science pipelines and mocking databases for testing purposes.
 
 # Quickstart
 
@@ -18,5 +18,5 @@ $ python -m dabitup mongo ./loadsofjson/ user dontusethispassword --fformat .jso
 ```
 
 # Dependencies
-Must have docker and docker-compose installed and able to execute ```docker ps``` without sudo
+Must have docker and docker-compose installed and able to execute ```docker ps``` without sudo.
 
