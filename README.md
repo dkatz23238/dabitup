@@ -1,5 +1,5 @@
 # dabitup 🛠
-Quickly deploy dockerized database and insert tables stored in text files. Great for developing data science pipelines.
+Quickly deploy dockerized databases and insert tables stored in text files. Great for developing data science pipelines.
 
 # Quickstart
 
