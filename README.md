@@ -1,7 +1,7 @@
 # dabitup 🛠
 Quickly deploy dockerized databases and insert tables stored in text files. Great for developing data science pipelines and mocking databases for testing purposes.
 
-# Quickstart
+## Quickstart
 
 Spin up a psql docker container and insert the data in ./data/*.csv
 
@@ -17,6 +17,6 @@ Please note that there is no loadsofjson file provided in the repo but there is 
 $ python -m dabitup mongo ./loadsofjson/ user dontusethispassword --fformat .json
 ```
 
-# Dependencies
+## Dependencies
 Must have docker and docker-compose installed and able to execute ```docker ps``` without sudo.
 
