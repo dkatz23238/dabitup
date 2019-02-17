@@ -15,7 +15,7 @@ parser.add_argument("Username", help="Username for database")
 parser.add_argument(
     "Password", help="Password to use for user authenticated to database")
 parser.add_argument(
-    "--fformat", help="Format of files that stored in source directory", dest="fformat")
+    "--fformat", help="Format of files that stored in source directory", dest="fformat", default="DEFAULT")
 args = parser.parse_args()
 
 DATABASE = args.Database.lower()
@@ -25,7 +25,7 @@ PASSWORD = args.Password
 SERVICE_NAME = "db"
 FFORMAT = args.fformat
 
-if args.fformat == None:
+if args.fformat == "DEFAULT":
     if DATABASE == "mongo":
         FFORMAT = ".json"
     elif DATABASE == "SQL":
