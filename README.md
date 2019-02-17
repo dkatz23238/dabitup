@@ -11,7 +11,9 @@ $ python -m pip install -r requirements.txt
 $ python -m dabitup sql ./data user dontusethispassword --fformat .csv
 ```
 Spin up a mongo docker container and insert the data in ./loadsofjson/*.json.
-Please note that there is no loadsofjson file provided in the repo but there is a csv file in /data to loads into psql with the command listed above.
+
+Please note that there is no loadsofjson folder provided.
+There is a csv file in /data to loads into psql with the command listed above.
 
 ```
 $ python -m dabitup mongo ./loadsofjson/ user dontusethispassword --fformat .json
